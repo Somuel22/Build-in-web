@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.smallContainer{
+    width: 1180px;
+    margin: 0 auto;
+}
+.firstBanner{
+    background-image: url(/images/banner/banner2.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.main{
+    position: relative;
+}
+.descrition{
+    width: 525px;
+    text-align: right;
+}
+.bannerContant{
+    position: absolute;
+    right: 120px;
+    top: 25%;
+}
+.mainTitle{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    width: 525px;
+}
+.btn{
+    text-align: right;
+    position: absolute;
+    right: 0;
+    background-color: #F15B22;
+    border: none;
+    padding: 20px 30px;
+    color: #FFFF;
+    border-radius: 6px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/* ======================= SecondContent========================= */
+.secondContant{
+    margin-top: 70px;
+}
+.secondBannerContent{
+    padding: 80px 0;
+}
+.firstContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.person img{
+    width: 569px;
+    height: 723.3px;
+}
+.person h1{
+    width: 288px;
+    margin-bottom: 20px;
+}
+.person p{
+    width: 416px;
+    margin-bottom: 10px;
+}
+.lable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lable p{
+    padding: 0 10px;
+}
+.lable i{
+    font-size: 20px;
+    color: #16D887;
+}
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.Info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.work{
+    text-align: center;
+}
+.work img{
+    width: 92.96px;
+height: 92.96px;
+}
+/* ==================Third Banner================= */
+.thirdContant{
+    position: relative;
+    width: 1140px;
+    height: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 140px;
+}
+
+.img1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.img2{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.thirdTitle{
+    font-size: 40px;
+    color: #FFF;
+    width: 470px;
+}
+.thirdInfo {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.thirdBtn{
+    background-color: #FFF;
+    border: none;
+    padding: 20px 30px;
+    color: #F15B22;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.col-2{
+    flex-basis: 40%;
+    
+}
+.footersection{
+    background-color: #000;
+    padding: 50px;
+    color: #FFF;
+}
+.footerHeading{
+    margin-bottom: 10px;
+    font-size: 45px;
+}
+.footerdes{
+    width: 485px;
+    margin-bottom: 20px;
+}
+.subHeading{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.subInput{
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 15px;
+    color: #FFF;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.social{
+    margin-top: 30px;
+   
+}
+.social img{
+
+}
+.social img{
+   padding: 0 10px;
+}
